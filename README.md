@@ -1,24 +1,30 @@
 # About
 GtkThemedIconChooser is a set of GTK+ 3 objects (2 widgets and 1 dialog) for
 Python3, allowing selection of themed icons from the current icon theme.
+
 ![DemoPreview](preview/Demo.png)
 - **IconChooserDialog:** GTK Dialog to display icons grouped by icon contexts
 (Applications, Actions, Emoticions, etc.) with support for simple or regex
 searching. Icon name is given as result of `run()`
+
 ![DialogPreview](preview/DialogActive.png)
 - **IconChooserButton:** GTK Button to open an IconChooserDialog and display
 the result like a GTK FileChooserButton. Icon name is given as result of a new
 `icon-changed` signal.
+
 ![ButtonPreview](preview/Button.png)
 - **IconChooserComboBox:** GTK Combo Box to display icons in a combo box. Icon
 name is given as result of `changed` signal. Not recommended to be used without
 heavy filtering of displayed icons due to likely UI freezing and how
 impractical it is to find the icon you want from 1000s.
+
 ![ComboPreview1](preview/Combo.png)
+
 ![ComboPreview2](preview/ComboUse.png)
 
 **Demo:** A demo, `demo.py` is also provided to demonstrate apperance and 
 behaviour of the widgets.
+
 ![DemoSelectionPreview](preview/DemoSelected.png)
 
 # Usage
