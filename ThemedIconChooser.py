@@ -1,6 +1,6 @@
 # Copyright (C) 2017 Tom Hartill
 #
-# ThemedIconChooserAdapter.py - A set of GTK+ 3 widgets for selecting themed icons.
+# ThemedIconChooser.py - A set of GTK+ 3 widgets for selecting themed icons.
 #
 # ThemedIconChooser is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the Free
