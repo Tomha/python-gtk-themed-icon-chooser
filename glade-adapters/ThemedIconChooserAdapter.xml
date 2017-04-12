@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-catalog name="ThemedIconChooserAdapter"
+               library="ThemedIconChooserAdapter"
+               domain="glade-3"
+               depends="gtk+"
+               language="python">
+    <glade-widget-classes>
+        <glade-widget-class
+            title="Icon Chooser Button"
+            name="IconChooserButton"
+            generic-name="iconchooserbutton"
+            parent="GtkButton">
+        </glade-widget-class>
+        <glade-widget-class
+            title="Icon Chooser Combo Box"
+            name="IconChooserComboBox"
+            generic-name="iconchoosercombobox"
+            parent="GtkComboBox">
+        </glade-widget-class>
+        <glade-widget-class
+            title="Icon Chooser Dialog"
+            name="IconChooserDialog"
+            generic-name="iconchooserdialog"
+            parent="GtkDialog">
+        </glade-widget-class>
+    </glade-widget-classes>
+    <glade-widget-group name="ThemedIconChooserAdapter"
+        title="Themed Icon Choosers">
+        <glade-widget-class-ref name="IconChooserButton"/>
+        <glade-widget-class-ref name="IconChooserComboBox"/>
+        <glade-widget-class-ref name="IconChooserDialog"/>
+    </glade-widget-group>
+</glade-catalog>
