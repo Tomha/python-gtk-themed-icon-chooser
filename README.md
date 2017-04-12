@@ -1,25 +1,25 @@
 # About
 GtkThemedIconChooser is a set of GTK+ 3 objects (2 widgets and 1 dialog) for
 Python3, allowing selection of themed icons from the current icon theme.
-![alt tag](https://raw.githubusercontent.com/tomha/GtkThemedIconChooser/preview/Demo.png)
+![DemoPreview](preview/Demo.png)
 - **IconChooserDialog:** GTK Dialog to display icons grouped by icon contexts
 (Applications, Actions, Emoticions, etc.) with support for simple or regex
 searching. Icon name is given as result of `run()`
-![alt tag](https://raw.githubusercontent.com/tomha/GtkThemedIconChooser/preview/DialogActive.png)
+![DialogPreview](preview/DialogActive.png)
 - **IconChooserButton:** GTK Button to open an IconChooserDialog and display
 the result like a GTK FileChooserButton. Icon name is given as result of a new
 `icon-changed` signal.
-![alt tag](https://raw.githubusercontent.com/tomha/GtkThemedIconChooser/preview/Button.png)
+![ButtonPreview](preview/Button.png)
 - **IconChooserComboBox:** GTK Combo Box to display icons in a combo box. Icon
 name is given as result of `changed` signal. Not recommended to be used without
 heavy filtering of displayed icons due to likely UI freezing and how
 impractical it is to find the icon you want from 1000s.
-![alt tag](https://raw.githubusercontent.com/tomha/GtkThemedIconChooser/preview/Combo.png)
-![alt tag](https://raw.githubusercontent.com/tomha/GtkThemedIconChooser/preview/ComboUse.png)
+![ComboPreview1](preview/Combo.png)
+![ComboPreview2](preview/ComboUse.png)
 
 **Demo:** A demo, `demo.py` is also provided to demonstrate apperance and 
 behaviour of the widgets.
-![alt tag](https://raw.githubusercontent.com/tomha/GtkThemedIconChooser/preview/DemoSelected.png)
+![DemoSelectionPreview](preview/DemoSelected.png)
 
 # Usage
 Currently there is not support for using GTK builder or the likes, I'm having a
