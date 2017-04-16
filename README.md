@@ -1,5 +1,5 @@
 # About
-GtkThemedIconChooser is a set of GTK+ 3 objects (2 widgets and 1 dialog) for Python3, allowing selection of themed icons from the current icon theme.
+A set of GTK+ 3 objects (2 widgets and 1 dialog) for Python3, allowing selection of themed icons from the current icon theme.
 
 ![DemoPreview](preview/Demo.png)
 
