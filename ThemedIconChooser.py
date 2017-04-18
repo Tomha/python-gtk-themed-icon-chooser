@@ -16,7 +16,7 @@
 # ThemedIconChooser; if not, see http://www.gnu.org/licenses/.
 #
 # An up to date version can be found at:
-# https://github.com/Tomha/GtkThemedIconChooser
+# https://github.com/Tomha/python-gtk-themed-icon-chooser
 
 import re
 from threading import Thread
